@@ -31,17 +31,16 @@ setup(
         'PyWavelets==1.4.1',
         'safetensors',
         'sentencepiece==0.1.99',
-        'torch==2.4.1',
-        'torchaudio==2.4.1',
-        'torchmetrics==1.5.2',
+        'torch>=2.0.1',
+        'torchaudio>=2.0.2',
+        'torchmetrics==0.11.4',
         'tqdm',
-        'transformers==4.46.2',
+        'transformers',
         'v-diffusion-pytorch==0.0.2',
         'vector-quantize-pytorch==1.9.14',
         'wandb',
         'webdataset==0.2.48',
-        'x-transformers==1.42.11',
-        'flash_attn'
+        'x-transformers<1.27.0',
     ],
 
 )
